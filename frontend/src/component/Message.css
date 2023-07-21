@@ -1,0 +1,19 @@
+.messageBox{
+   
+    width: 50%;
+    padding: 1vmax;
+    margin: 1.6vmax;
+    border-radius: 0.5vmax;
+    display: inline-block;
+    clear: both;
+}
+.right{
+    float: right;
+    background-color: var(--rightchat-clr);
+    color: white;
+}
+.left{
+    float: left;
+    background-color: var(--leftchat-clr);
+   
+}

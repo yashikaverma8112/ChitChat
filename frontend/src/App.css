@@ -1,0 +1,41 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+.light-theme{
+  --main-heading : black;
+  --primary-clr:#f5f5f5;
+  --bg-clr : rgb(190, 190, 235);
+  --secondary-clr : orange;
+  /* --secondary-clr : #48c948; */
+  --leftchat-clr: rgb(192, 189, 189);
+  /* --rightchat-clr: #209420; */
+  --rightchat-clr: rgb(210, 144, 23);
+  --inp-clr : rgb(238, 228, 228);
+  /* --send-btn-hover: #0d6d0d; */
+  --send-btn-hover:  rgb(218, 144, 8);
+}
+.dark-theme{
+  --bg-clr : rgb(190, 190, 235);
+  --main-heading : white;
+  --primary-clr:#1f1f1f;
+   --secondary-clr: rgb(115, 115, 230);
+   --leftchat-clr: gainsboro;
+   --rightchat-clr: #0c73af;
+   --inp-clr : rgb(43, 43, 45);
+   --send-btn-hover: rgb(92, 92, 250);
+}
+/* @media (max-aspect-ratio : 7/10){
+  .JoinContainer{
+    width: 100% !important;
+    border: 2px solid white;
+  }
+  .JoinContainer >img{
+    width: 30vw !important;
+  }
+  .JoinContainer >h1{
+    color: rgb(118, 19, 19);
+    font-size: 10vmax;
+    
+  }
+} */
