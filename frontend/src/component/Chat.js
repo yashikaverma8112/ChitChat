@@ -5,7 +5,6 @@ import socketIo from 'socket.io-client';
 import './Chat.css';
 import Message from './Message';
 import sendLogo from '../images/send.png';
-import closeIcon from '../images/closeIcon.png';
 import ReactScrollToBottom from 'react-scroll-to-bottom'
 import sun from '../images/sun.png';
 import moon from '../images/moon.png'
@@ -103,7 +102,6 @@ const Chat = () => {
                         <img src={image} alt="image" onClick={() => toggleTheme()} />
                     </div>
                     <a href="/"> 
-                     {/* <img src={closeIcon} alt="close"/> */}
                     
                     <button type="button" class="btn btn-danger">Leave</button>
                     </a>
