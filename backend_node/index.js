@@ -7,7 +7,14 @@ const app = express();
 const server = http.createServer(app);
 const io = socketIO(server);
 // const port = 3000|| process.env.PORT;
-app.use(cors());
+const corsOptions = {
+    origin: 'https://main--chat-with-chitchat.netlify.com/',
+    optionsSuccessStatus: 200 // some legacy browsers (IE11, various SmartTVs) choke on 204
+};
+
+app.use(cors(corsOptions));
+
+// app.use(cors());
 const users =[{}];
 app.get('/',(req,res)=>{
     res.send("Hello World");
