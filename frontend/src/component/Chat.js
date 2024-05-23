@@ -10,7 +10,7 @@ import ReactScrollToBottom from 'react-scroll-to-bottom'
 import sun from '../images/sun.png';
 import moon from '../images/moon.png'
 let socket;
-const ENDPOINT = "http://localhost:3000/";
+const ENDPOINT = "https://chitchat-p7r7.onrender.com";
 const Chat = () => {
  
     const [theme, setTheme] = useState("light-theme");
